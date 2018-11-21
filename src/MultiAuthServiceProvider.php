@@ -57,6 +57,9 @@ class MultiAuthServiceProvider extends ServiceProvider {
 			'migration' => [
 				"{$publishablePath}/database/migrations/" => database_path('migrations'),
 			],
+			'multiauth-seed' => [
+				"{$publishablePath}/database/seeds/" => database_path('seeds'),
+			],
 
 		];
 

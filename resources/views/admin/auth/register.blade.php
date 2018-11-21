@@ -197,7 +197,7 @@
                                                     @endif
                                                 >{{$role->name}}</option>
                                                 @empty
-                                                <option>No Roles</option>
+                                                <option>@lang('multilang::index.no_role')</option>
                                                 @endforelse
                                             </select>
                                         </div>
