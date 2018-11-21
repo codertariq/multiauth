@@ -14,7 +14,7 @@ This package can be used in Laravel 5.4 or higher. If you are using an older ver
 You can install the package via composer:
 
 ``` bash
-composer require spatie/laravel-permission
+composer require tariqul/multiauth
 ```
 
 In Laravel 5.5 the service provider will automatically get registered. In older versions of the framework just add the service provider in `config/app.php` file:
@@ -31,6 +31,20 @@ You can publish [the migration] with:
 ```bash
 php artisan vendor:publish --tag="migration"
 ```
+You can publish [the migration][spaite laravel permission migration ] with:
+```bash
+php artisan vendor:publish --tag="migrations"
+```
+assets for multiauth 
+```bash
+php artisan vendor:publish --tag="multiauth_assets"
+```
+
+make auth
+```bash
+php artisan make:auth
+```
+
 
 After the migration has been published you can create the admins- tables by running the migrations:
 
