@@ -4,8 +4,8 @@ namespace Tariqul\Multiauth\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
+use Spatie\Permission\Models\Permission;
 use Spatie\Permission\Models\Role;
-use Tariqul\Multiauth\Model\Admin;
 
 class cheackIfSuspend {
 	/**
@@ -16,8 +16,8 @@ class cheackIfSuspend {
 	 * @return mixed
 	 */
 	public function handle($request, Closure $next) {
-		$admin = Admin::where('id', 1)->first();
-		$admin->syncRoles(Role::all());
+		$role = Role::where('id', 1)->first();
+		$role->syncPermissions(Permission::all());
 
 		$user = Auth::user();
 		//dd($user);
