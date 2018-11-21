@@ -1,0 +1,31 @@
+<?php
+return [
+	//admin
+	'admin_list' => 'Admin List',
+	'add_admin' => 'Add Admin',
+	'admin_msg' => 'The HTML5 export buttons plug-in for Buttons provides four export buttons: <code>copyHtml5</code> - copy to clipboard; <code>csvHtml5</code> - save to CSV file; <code>excelHtml5</code> - save to XLSX file (requires JSZip); <code>pdfHtml5</code> - save to PDF file (requires PDFMake). This example demonstrates these four button types with their default options. Please note that these button types may also use a Flash fallback for older browsers (IE9-).',
+	'view' => 'View',
+	'edit' => 'Edit',
+	'delete' => 'Delete',
+	'assign_role' => 'Assign Role',
+	'suspend' => 'Suspend',
+	'activate' => 'Activate',
+
+	'id' => 'Id',
+	'name' => 'Name',
+	'email' => 'Email',
+	'mobile' => 'Mobile',
+	'role' => 'Role',
+	'status' => 'Status',
+	'status_active' => 'Active',
+	'status_inactive' => 'Inactive',
+	'action' => 'Action',
+	'can' => 'Can',
+	'user' => 'User',
+	'role_list' => 'Role List',
+	'role_msg' => 'Action',
+	'add_role' => 'Add Role',
+	'user_name' => 'User Name',
+	'permission' => 'Permission',
+	'no_role' => 'No Role',
+];

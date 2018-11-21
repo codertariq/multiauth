@@ -1,0 +1,31 @@
+<?php
+return [
+	//admin
+	'admin_list' => 'এডমিন তালিকা',
+	'add_admin' => 'এডমিন যোগ করুন',
+	'admin_msg' => 'The HTML5 export buttons plug-in for Buttons provides four export buttons: <code>copyHtml5</code> - copy to clipboard; <code>csvHtml5</code> - save to CSV file; <code>excelHtml5</code> - save to XLSX file (requires JSZip); <code>pdfHtml5</code> - save to PDF file (requires PDFMake). This example demonstrates these four button types with their default options. Please note that these button types may also use a Flash fallback for older browsers (IE9-).',
+	'view' => 'দেখুন',
+	'edit' => 'সম্পাদন করুন',
+	'delete' => 'মুছুন',
+	'assign_role' => 'রোল প্রদান',
+	'suspend' => 'বাতিল করা',
+	'activate' => 'সক্রিয় করুন',
+
+	'id' => 'আইডি',
+	'name' => 'নাম',
+	'email' => 'ইমেইল',
+	'mobile' => 'মোবাইল',
+	'role' => 'রোল',
+	'status' => 'অবস্থা',
+	'status_active' => 'সক্রিয়',
+	'status_inactive' => 'নিস্ক্রিয়',
+	'action' => 'কার্যক্রম',
+	'can' => 'অনুমতি',
+	'user' => 'ব্যাবহারকারী',
+	'role_list' => 'রোল তালিকা',
+	'role_msg' => 'Action',
+	'add_role' => 'রোল যোগ করুন',
+	'user_name' => 'ব্যাবহারকারীর নাম',
+	'permission' => 'অনুমতি',
+	'no_role' => 'কোন রোল নেই',
+];
